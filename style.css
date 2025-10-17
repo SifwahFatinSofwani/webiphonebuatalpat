@@ -35,7 +35,7 @@ nav a {
     text-decoration: none;
     color: #1d1d1f;
     font-size: 16px;
-    font-weight: 500; /* Sedikit tebal untuk tampilan rounded */
+    font-weight: 500;
     transition: color 0.3s ease;
 }
 
@@ -46,7 +46,7 @@ nav a:hover {
 .apple-logo img {
     width: 28px;
     height: 35px;
-    display: block; /* Menghilangkan spasi ekstra di bawah gambar */
+    display: block;
 }
 
 /* Hero Section */
@@ -206,7 +206,7 @@ nav a:hover {
 /* Responsif untuk Mobile */
 @media (max-width: 768px) {
     .container {
-        padding: 0 10px; /* Kurangi padding di mobile */
+        padding: 0 15px; /* Kurangi padding di mobile */
     }
 
     .hero h1 {
@@ -218,11 +218,11 @@ nav a:hover {
     }
     
     nav ul {
-        gap: 10px;
+        gap: 15px;
     }
     
     nav a {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .product-card {
@@ -242,6 +242,6 @@ nav a:hover {
     }
 
     .footer-right a {
-        margin: 5px 10px; /* Beri jarak atas-bawah juga di mobile */
+        margin: 5px 10px;
     }
 }
