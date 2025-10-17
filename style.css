@@ -206,7 +206,7 @@ nav a:hover {
 /* Responsif untuk Mobile */
 @media (max-width: 768px) {
     .container {
-        padding: 0 15px; /* Kurangi padding di mobile */
+        padding: 0 10px; /* Kurangi padding di mobile */
     }
 
     .hero h1 {
@@ -218,12 +218,11 @@ nav a:hover {
     }
     
     nav ul {
-        gap: 20px;
-        flex-wrap: wrap;
+        gap: 10px;
     }
     
     nav a {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .product-card {
